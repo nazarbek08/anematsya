@@ -1,0 +1,69 @@
+body{
+    background-image: url(ch.jpg);
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 72, 255);
+    animation-name: wer;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes wer{
+    0%{
+        background-color: rgb(255, 255, 255);
+        margin-top: 65px;
+        margin-left: 46px;
+    }
+    10%{
+        background-color: rgb(255, 0, 0);
+        margin-top: 66px;
+        margin-left: 270px;
+    }
+    20%{
+        background-color: rgb(255, 170, 0);
+        margin-top: 300px;
+        margin-left: 270px;
+    }
+    30%{
+        background-color: rgb(255, 255, 0);
+        margin-top: 300px;
+        margin-left: 830px;
+    }
+    40%{
+        background-color: rgb(68, 255, 0);
+        margin-top: 430px;
+        margin-left: 830px;
+    }
+    50%{
+        background-color: rgb(0, 255, 145);
+        margin-top: 430px;
+        margin-left: 510px;
+    }
+    60%{
+        background-color: rgb(132, 255, 212);
+        margin-top: 390px;
+        margin-left: 510px;
+    }
+    70%{
+        background-color: rgb(0, 76, 255);
+        margin-top: 390px;
+        margin-left: 270px;
+    }
+    80%{
+        background-color: rgb(234, 0, 255);
+        margin-top: 290px;
+        margin-left: 150px;
+    }
+    90%{
+        background-color: rgb(255, 0, 225);
+        margin-top: 285px;
+        margin-left: 50px;
+    }
+    100%{
+        background-color: brown;
+        margin-top: 65px;
+        margin-left: 46px;
+    }
+}
